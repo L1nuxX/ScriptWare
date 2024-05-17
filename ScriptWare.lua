@@ -5,3 +5,8 @@ local window = lib.createWindow("ScriptWare", "ScriptWare", true)
 local MD2 = window.createTab("MurderMustery2")
 local Obbys = window.createTab("Ibbys")
 local Other = window.createTab("Other")
+
+Other.createButton("unhook", function()
+	print("Unhoocked ScriptWare!")
+  window.deleteWindow("window")
+end)
