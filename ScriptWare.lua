@@ -2,6 +2,6 @@ local lib = loadstring(game:HttpGet('https://raw.githubusercontent.com/L1nuxX/Sc
 
 local window = lib.createWindow("ScriptWare", "ScriptWare", true)
 
-local Combat = window.createTab("MurderMustery2")
-local Combat = window.createTab("Ibbys")
-local Combat = window.createTab("Other")
+local MD2 = window.createTab("MurderMustery2")
+local Obbys = window.createTab("Ibbys")
+local Other = window.createTab("Other")
