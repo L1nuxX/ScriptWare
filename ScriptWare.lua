@@ -1,1 +1,1 @@
-print('123')
+print('ScriptWare is loading...')
