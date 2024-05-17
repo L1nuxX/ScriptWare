@@ -15,6 +15,6 @@ Other.createButton("unhook", function()
   window.deleteWindow("window")
 end)
 
-MD.createSlider("SpeedHack", {defualt = 10, max = 64, min = 1}, function(speedhackvalue)
+MD.createSlider("SpeedHack", {defualt = 18, max = 64, min = 16}, function(speedhackvalue)
 	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = speedhackvalue
 end)
