@@ -18,6 +18,7 @@ end)
 MD.createSlider("SpeedHack", {defualt = 18, max = 64, min = 16}, function(value)
 	while true do
     print("Этот цикл будет выполняться бесконечно")
+    wait(0.5)
     -- Добавьте сюда другие действия, которые должны выполняться бесконечно
 end
 end)
